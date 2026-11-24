@@ -13,14 +13,14 @@ export const personalData = {
   location: "Mumbai, Maharashtra, India",
   college: "Gokhale Education Society's Shri Bhausaheb Vartak Arts, Commerce and Science College",
   academicYear: "2026–2027",
-  
+
   // Contact & Socials (Editable placeholders)
-  email: "amey.nimbare.dev@example.com",
-  phone: "+91 98765 43210", // Editable placeholder
-  github: "https://github.com/ameynimbare",
-  linkedin: "https://linkedin.com/in/ameynimbare",
-  twitter: "https://twitter.com/ameynimbare",
-  
+  email: "ameynimbare5@gmail.com",
+  phone: "+91 9324474033", // Editable placeholder
+  github: "https://github.com/ameynimbare5-maker",
+  linkedin: "https://www.linkedin.com/in/amey-nimbare-430b6a32a/",
+
+
   // Hero dynamic typing titles
   typingRoles: [
     "Frontend Developer",
@@ -46,14 +46,12 @@ export const personalData = {
     { label: "Location", value: "Mumbai, Maharashtra, India" },
     { label: "Availability", value: "Immediate (Internship / Entry-Level)" },
     { label: "Soft Skills", value: "Problem Solving, Team Collaboration, Fast Learner" },
-    { label: "Interests", value: "UI/UX Micro-Interactions, Open Source, Cloud Tech" }
+
   ],
 
   // Honest & realistic metrics for a student/fresher
   stats: [
-    { label: "Completed Projects", value: "6+", description: "Full-stack & frontend web apps" },
-    { label: "Technologies & Tools", value: "15+", description: "Languages, frameworks & DBs" },
-    { label: "GitHub Commits", value: "250+", description: "Consistent coding & versioning" },
-    { label: "Practical Lab Hours", value: "500+", description: "Academic and hands-on coding" }
+    { label: "Completed Projects", value: "2", description: "Full-stack & frontend web apps" },
+    { label: "Technologies & Tools", value: "8+", description: "Languages, frameworks & DBs" }
   ]
 };

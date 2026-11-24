@@ -20,7 +20,7 @@ export const projectsData = [
     tag: 'Civic Tech & E-Governance',
     brief: 'A web application that simplifies navigating, discovering, and applying for government digital services, welfare schemes, and official public documentation.',
     description: 'Digital Citizen Assist bridges the digital literacy gap for everyday citizens by providing an organized, searchable, and step-by-step portal to access state and national digital services. Built with a high-performance React frontend and robust Spring Boot REST microservices.',
-    technologies: ['React.js', 'Spring Boot', 'Java', 'MongoDB', 'Tailwind CSS', 'REST API'],
+    technologies: ['React.js', 'MongoDB', 'Tailwind CSS', 'REST API'],
     accentColor: '#3b82f6',
     github: 'https://github.com/ameynimbare/digital-citizen-assist',
     liveDemo: 'https://digital-citizen-assist.example.com',
@@ -68,60 +68,6 @@ export const projectsData = [
     },
     challengesSolved: 'Handling complex relationship queries between student batches, courses, and marks while ensuring zero data duplication.',
     keyLearnings: 'Mastered the MERN stack development cycle, REST API contracts, async error handling middleware, and client-side data synchronization.'
-  },
-  {
-    id: 'college-portal-pwa',
-    title: 'College Portal PWA',
-    subtitle: 'Progressive Web App with Offline Functionality',
-    category: 'webapps',
-    featured: true,
-    tag: 'PWA & ASP.NET',
-    brief: 'A Progressive Web Application (PWA) allowing college students to view timetables, circulars, syllabus notices, and campus updates even during low or no network connectivity.',
-    description: 'Engineered as a mobile-first Progressive Web App to tackle spotty campus Wi-Fi. Features service workers that precache notices, syllabus PDFs, and daily lecture timetables so students never miss a schedule update.',
-    technologies: ['ASP.NET Core', 'C#', 'JavaScript', 'HTML5', 'CSS3', 'Service Workers', 'PWA'],
-    accentColor: '#06b6d4',
-    github: 'https://github.com/ameynimbare/college-portal-pwa',
-    liveDemo: 'https://college-portal-pwa.example.com',
-    features: [
-      'Installable on Android, iOS, and desktop without requiring native app stores.',
-      'Service Worker caching strategy (Cache-First with Network Fallback) for offline operation.',
-      'Dynamic college notice board with push notification triggers for urgent alerts.',
-      'Interactive lecture timetable with current day highlighting and room allocations.',
-      'ASP.NET Core backend delivering lightweight JSON feeds and secure administrative endpoints.'
-    ],
-    architecture: {
-      frontend: 'Vanilla JavaScript & modern CSS with Web App Manifest & Service Worker API',
-      backend: 'ASP.NET Core Web API with C# controllers for notice and timetable dispatch',
-      caching: 'IndexedDB & CacheStorage API for offline persistence of assets and bulletins',
-      pwa: '100% Lighthouse PWA compliance with splash screens and standalone display'
-    },
-    challengesSolved: 'Implementing robust service worker cache invalidation when administrative notices are updated so users do not view stale examination schedules.',
-    keyLearnings: 'Gained solid understanding of Progressive Web App standards, service worker lifecycle events, C# ASP.NET Core API fundamentals, and offline-first UX.'
-  },
-  {
-    id: 'developer-portfolio-website',
-    title: 'Personal Developer Brand Portfolio',
-    subtitle: 'Modern Interactive Portfolio & Design System',
-    category: 'frontend',
-    featured: false,
-    tag: 'Portfolio & UI/UX',
-    brief: 'The website you are currently browsing: a high-performance, dark-themed personal showcase built with React 18, Tailwind CSS, and Framer Motion.',
-    description: 'A bespoke personal brand portfolio crafted from scratch without relying on generic templates. Highlights visual hierarchy, custom glassmorphism, responsive navigation, and component reusability.',
-    technologies: ['React.js', 'Tailwind CSS', 'Framer Motion', 'Vite', 'Lucide React'],
-    accentColor: '#ec4899',
-    github: 'https://github.com/ameynimbare/personal-portfolio',
-    liveDemo: 'https://ameynimbare.dev',
-    features: [
-      'Fully responsive, mobile-first design with dark/light mode toggle and theme persistence.',
-      'Fluid animations powered by Framer Motion and custom CSS glow effects.',
-      'Interactive project modal deep-dives and tech stack filtering.',
-      'Custom cursor tracker with toggle control and smooth scroll spy navbar.'
-    ],
-    architecture: {
-      frontend: 'React.js with Vite bundler, modular section architecture, and clean data-driven UI',
-      styling: 'Tailwind CSS with extended glow utilities and glassmorphic filters'
-    },
-    challengesSolved: 'Balancing rich glowing visual effects and animations with snappy 60fps rendering performance and zero layout shifts.',
-    keyLearnings: 'Refined skills in custom design systems, Framer Motion transitions, responsive accessibility, and modular React patterns.'
   }
+
 ];

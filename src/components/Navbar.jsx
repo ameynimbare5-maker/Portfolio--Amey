@@ -45,11 +45,10 @@ export default function Navbar({
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
-        isScrolled
+      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${isScrolled
           ? 'py-3 bg-[#080a12]/85 dark:bg-[#07080d]/90 backdrop-blur-md border-b border-white/10 shadow-lg shadow-black/20'
           : 'py-5 bg-transparent'
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
@@ -85,11 +84,10 @@ export default function Navbar({
                 <a
                   key={link.id}
                   href={link.href}
-                  className={`relative px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all duration-200 ${
-                    isActive
+                  className={`relative px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all duration-200 ${isActive
                       ? 'text-cyan-300'
                       : 'text-slate-300 hover:text-white hover:bg-white/5'
-                  }`}
+                    }`}
                 >
                   {isActive && (
                     <motion.span
@@ -153,11 +151,10 @@ export default function Navbar({
                       key={link.id}
                       href={link.href}
                       onClick={handleLinkClick}
-                      className={`px-3.5 py-2 rounded-xl text-xs font-semibold flex items-center justify-between border transition-all ${
-                        isActive
+                      className={`px-3.5 py-2 rounded-xl text-xs font-semibold flex items-center justify-between border transition-all ${isActive
                           ? 'bg-blue-600/20 text-cyan-300 border-cyan-500/40'
                           : 'bg-white/[0.02] text-slate-300 border-white/5 hover:border-white/15'
-                      }`}
+                        }`}
                     >
                       <span>{link.label}</span>
                       {isActive && <span className="w-1.5 h-1.5 rounded-full bg-cyan-400" />}

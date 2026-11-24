@@ -32,18 +32,13 @@ export const educationData = [
     id: 'sy-fybscit',
     degree: 'Higher Secondary Certificate (HSC) / Junior College',
     status: 'Completed',
-    institution: 'Junior College of Science & Commerce', // Editable placeholder
+    institution: 'M.L Dahanukar College of  Commerce', // Editable placeholder
     location: 'Mumbai, Maharashtra',
     academicYear: '2023–2024',
     affiliations: 'Maharashtra State Board',
     grade: 'First Class with Distinction', // Editable placeholder
     description: 'Completed higher secondary education in the Science stream with core focus on Mathematics, Physics, Chemistry, and Information Technology / Computer Science basics.',
-    keyCourses: [
-      'Information Technology',
-      'Mathematics & Statistics',
-      'Physics',
-      'Chemistry'
-    ],
+
     highlights: [
       'Developed early interest in computer programming and logic through IT coursework.',
       'Achieved strong foundation in analytical problem-solving and mathematics.'
@@ -54,7 +49,7 @@ export const educationData = [
     id: 'ssc',
     degree: 'Secondary School Certificate (SSC)',
     status: 'Completed',
-    institution: 'High School', // Editable placeholder
+    institution: ' High School', // Editable placeholder
     location: 'Mumbai, Maharashtra',
     academicYear: '2021–2022',
     affiliations: 'Maharashtra State Board',

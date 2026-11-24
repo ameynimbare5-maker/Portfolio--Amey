@@ -12,30 +12,7 @@ export const certificationCategories = [
 ];
 
 export const certificationsData = [
-  {
-    id: 'react-cert-placeholder',
-    title: 'Modern React & Web Development',
-    issuer: 'Online Learning Platform (Coursera / Udemy / FreeCodeCamp)',
-    category: 'certifications',
-    issueDate: '2025',
-    credentialId: 'CERT-REACT-2025-XXXX', // Editable placeholder
-    verificationUrl: '#', // Replace with your actual certificate verification URL
-    badge: 'Frontend Certification',
-    description: 'Comprehensive course covering React 18, functional components, hooks lifecycle, Context API, state management, and modern component design patterns.',
-    skills: ['React.js', 'Hooks', 'State Management', 'Single Page Applications']
-  },
-  {
-    id: 'javascript-cert-placeholder',
-    title: 'JavaScript Algorithms & Data Structures',
-    issuer: 'Technical Learning Platform',
-    category: 'certifications',
-    issueDate: '2024',
-    credentialId: 'CERT-JS-2024-XXXX', // Editable placeholder
-    verificationUrl: '#',
-    badge: 'Algorithms & ES6',
-    description: 'In-depth mastery of JavaScript ES6+ syntax, asynchronous programming, event handling, closures, recursion, and core data structures.',
-    skills: ['JavaScript (ES6+)', 'Data Structures', 'OOP', 'Functional Programming']
-  },
+
   {
     id: 'fullstack-workshop-placeholder',
     title: 'Full Stack Web Development Hands-on Workshop',
